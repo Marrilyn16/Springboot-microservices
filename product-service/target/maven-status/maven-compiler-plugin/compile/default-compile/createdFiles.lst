@@ -1,0 +1,10 @@
+com/marrilyn/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/marrilyn/productservice/service/ProductService.class
+com/marrilyn/productservice/model/Product$ProductBuilder.class
+com/marrilyn/productservice/dto/ProductRequest.class
+com/marrilyn/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/marrilyn/productservice/controller/ProductController.class
+com/marrilyn/productservice/dto/ProductResponse.class
+com/marrilyn/productservice/repository/ProductRepository.class
+com/marrilyn/productservice/ProductServiceApplication.class
+com/marrilyn/productservice/model/Product.class

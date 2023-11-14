@@ -1,0 +1,5 @@
+com/Marrilyn/inventoryservice/model/Inventory.class
+com/Marrilyn/inventoryservice/InventoryServiceApplication.class
+com/Marrilyn/inventoryservice/repository/InventoryRepository.class
+com/Marrilyn/inventoryservice/service/InventoryService.class
+com/Marrilyn/inventoryservice/controller/InventoryController.class
