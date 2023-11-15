@@ -19,7 +19,7 @@ public class OrderController {
     private final OrderService orderService;
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    @CircuitBreaker(name = "inventory", fallbackMethod = "fallbackMethod")
+    @CircuitBreaker(name = "inventory", fallbackMethod = "fallbackMethod")   //Implement Circuit Breaker
     @TimeLimiter(name = "inventory")
     @Retry(name = "inventory")
     public CompletableFuture<String> placeOrder(@RequestBody OrderRequest orderRequest) {
@@ -32,4 +32,8 @@ public class OrderController {
 
     }
 
+    //    Without Circuit Breaker
+//    public String placeOrder(@RequestBody OrderRequest orderRequest) {
+//        return orderService.placeOrder(orderRequest);
+//    }
 }
