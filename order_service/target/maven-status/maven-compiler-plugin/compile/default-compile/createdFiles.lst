@@ -1,8 +1,12 @@
 com/marrilyn/orderservice/repository/OrderRepository.class
-com/marrilyn/orderservice/dto/OrderRequest.class
+com/marrilyn/orderservice/config/WebClientConfig.class
 com/marrilyn/orderservice/model/OrderLineItems.class
-com/marrilyn/orderservice/OrderServiceApplication.class
 com/marrilyn/orderservice/controllers/OrderController.class
+com/marrilyn/orderservice/dto/OrderRequest.class
+com/marrilyn/orderservice/OrderServiceApplication.class
+com/marrilyn/orderservice/dto/InventoryResponse.class
 com/marrilyn/orderservice/dto/OrderLineItemsDto.class
 com/marrilyn/orderservice/model/Order.class
+com/marrilyn/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
 com/marrilyn/orderservice/service/OrderService.class
+com/marrilyn/orderservice/event/OrderPlacedEvent.class

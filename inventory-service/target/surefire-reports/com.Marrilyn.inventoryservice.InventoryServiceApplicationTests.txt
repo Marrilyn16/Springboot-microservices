@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.Marrilyn.inventoryservice.InventoryServiceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.811 s - in com.Marrilyn.inventoryservice.InventoryServiceApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.687 s - in com.Marrilyn.inventoryservice.InventoryServiceApplicationTests

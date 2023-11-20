@@ -1,4 +1,5 @@
 /Users/deca/Downloads/microservices-new/inventory-service/src/main/java/com/Marrilyn/inventoryservice/service/InventoryService.java
+/Users/deca/Downloads/microservices-new/inventory-service/src/main/java/com/Marrilyn/inventoryservice/dto/InventoryResponse.java
 /Users/deca/Downloads/microservices-new/inventory-service/src/main/java/com/Marrilyn/inventoryservice/controller/InventoryController.java
 /Users/deca/Downloads/microservices-new/inventory-service/src/main/java/com/Marrilyn/inventoryservice/InventoryServiceApplication.java
 /Users/deca/Downloads/microservices-new/inventory-service/src/main/java/com/Marrilyn/inventoryservice/repository/InventoryRepository.java

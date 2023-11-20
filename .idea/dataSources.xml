@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="order-service@localhost" uuid="d6ac9bde-3ad6-4085-b65f-793afc8e5f13">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="order-service@localhost" uuid="d4503c23-7504-4f8e-85ee-163fef57c997">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/order-service</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/order-service</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="inventory-service@localhost" uuid="afdd1953-c042-42bd-9641-599f3dfbcb91">
+    <data-source source="LOCAL" name="inventory-service@localhost" uuid="b73a4127-c987-466a-8ffd-9efb034aeac2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/inventory-service</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="keycloak@localhost" uuid="f468c511-c002-46bc-af5a-5b3adce0ca7e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/inventory-service</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/keycloak</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

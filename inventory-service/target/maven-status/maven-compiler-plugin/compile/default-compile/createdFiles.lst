@@ -1,5 +1,7 @@
-com/Marrilyn/inventoryservice/model/Inventory.class
 com/Marrilyn/inventoryservice/InventoryServiceApplication.class
+com/Marrilyn/inventoryservice/controller/InventoryController.class
+com/Marrilyn/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class
+com/Marrilyn/inventoryservice/model/Inventory.class
+com/Marrilyn/inventoryservice/dto/InventoryResponse.class
 com/Marrilyn/inventoryservice/repository/InventoryRepository.class
 com/Marrilyn/inventoryservice/service/InventoryService.class
-com/Marrilyn/inventoryservice/controller/InventoryController.class
